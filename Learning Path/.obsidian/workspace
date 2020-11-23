@@ -4,14 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "053489824f719305",
+        "id": "c62c06ddb0e819c8",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AWS/Communication/Simple Notification Service (SNS).md",
-            "mode": "source"
+            "file": "AWS/Database Fundamentals/Non-Relational DBs/AWS DynamoDB/AWS DynamoDB.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "09ee3ae921afe2b1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "AWS/Compute/AWS Beanstalk/AWS Beanstalk.md",
+            "mode": "preview"
           }
         }
       }
@@ -40,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#AWS",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Communication/Simple Notification Service (SNS).md",
+                "file": "AWS/Database Fundamentals/Non-Relational DBs/AWS DynamoDB/AWS DynamoDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,15 +96,15 @@
     "width": 300
   },
   "lastOpenFiles": [
-    "AWS/Communication/Simple Notification Service (SNS).md",
-    "AWS/Communication/Untitled.md",
-    "AWS/CICD/Untitled.md",
-    "AWS/Storage/Amazon S3.md",
-    "AWS/Database Fundamentals/Relational DBs/AWS Redshift.md",
     "AWS/Database Fundamentals/Non-Relational DBs/AWS DynamoDB/AWS DynamoDB.md",
+    "AWS/Compute/AWS Beanstalk/AWS Beanstalk.md",
+    "AWS/Architecture/Untitled.md",
+    "AWS/Compute/AWS Lambda/AWS Lambda.md",
+    "AWS/Storage/Amazon S3.md",
     "AWS/Database Fundamentals/Non-Relational DBs/AWS DynamoDB/Secondary Index.md",
-    "AWS/Database Fundamentals/Untitled.md",
-    "AWS/Database Fundamentals/Non-Relational DBs/AWS DynamoDB/Untitled.md",
-    "AWS/Database Fundamentals/Non-Relational DBs/AWS DynamoDB/Partition.md"
+    "AWS/CICD/AWS CloudFormation.md",
+    "AWS/CICD/Untitled.md",
+    "AWS/Compute/AWS Elastic Compute Cloud (EC2).md",
+    "AWS/Monitoring & Debugging/AWS X-Ray.md"
   ]
 }

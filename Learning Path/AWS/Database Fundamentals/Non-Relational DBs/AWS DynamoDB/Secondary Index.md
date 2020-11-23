@@ -33,6 +33,7 @@ Can only be created at the same time the table is created, If you want to add a 
 Share their provision throughput with the main table|Have to revision separate throughput capacity for the index
 5 local secondary indexes for each table|20 global secondary indexes for each table
 When you query a local secondary index, you can choose either eventual consistency or strong consistency|Only supports eventual consistency and not strong consistency
+When querying or scanning, you can request attributes that are not projected into the index, DynamoDB will automatically fetch them from the table|When querying or scanning, you can only request the attributes that are projected into the index|
 
 ![[DynamoDB Global Secondary Index.png]]
 ![[DynamoDB Local Secondary Index.png]]

@@ -52,6 +52,19 @@
 - Throughput management
 	- 
 
+- To create, update, or delete an item in a DynamoDB table, use one of the following operations:
+	- PutItem
+	- UpdateItem
+	- DeleteItem
+
+- For each of these operations, you need to specify the entire primary key, not just part of it. For example, if a table has a composite primary key (partition key and sort key), you must supply a value for the partition key and a value for the sort key.
+
+-  To return the number of write capacity units consumed by any of these operations, set the ReturnConsumedCapacity parameter to one of the following:
+
+	- TOTAL — returns the total number of write capacity units consumed.
+	- INDEXES — returns the total number of write capacity units consumed, with subtotals for the table and any secondary indexes that were affected by the operation.
+	- NONE — no write capacity details are returned. (This is the default.)
+
 - Guide
 	- https://tutorialsdojo.com/amazon-dynamodb/
 	- https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html?shortFooter=true
