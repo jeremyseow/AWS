@@ -10,18 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AWS/Misc/Task Placement Strategy.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "476a45ce1c5da093",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "AWS/Compute/AWS Lambda/AWS Lambda.md",
+            "file": "AWS/Storage/Amazon S3/Storage Class.md",
             "mode": "source"
           }
         }
@@ -64,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372
+    "width": 324
   },
   "right": {
     "id": "713a9f2f1a713790",
@@ -80,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Misc/Task Placement Strategy.md",
+                "file": "AWS/Storage/Amazon S3/Storage Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,18 +82,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "lastOpenFiles": [
+    "AWS/Storage/Amazon S3/Storage Class.md",
+    "AWS/Storage/Amazon S3/Amazon S3.md",
+    "AWS/Storage/Amazon S3/Untitled.md",
+    "AWS/Storage/Amazon S3.md",
+    "AWS/Misc/Task Placement Strategy.md",
     "AWS/Misc/Untitled.md",
     "AWS/Security/Untitled.md",
     "AWS/Compute/AWS Lambda/Concurrency.md",
     "AWS/Compute/AWS Lambda/AWS Lambda.md",
-    "AWS/Coordination/Untitled.md",
-    "AWS/Compute/AWS Elastic Compute Cloud (EC2).md",
-    "AWS/Database Fundamentals/Relational DBs/AWS RDS/Monitoring.md",
-    "AWS/Database Fundamentals/Relational DBs/AWS RDS/AWS RDS.md",
-    "AWS/CICD/AWS CloudFormation.md",
-    "AWS/CICD/Untitled.md"
+    "AWS/Coordination/Untitled.md"
   ]
 }
