@@ -17,9 +17,10 @@
 ![[Security group vs Network ACL.png]]
 ![[Security group and Network ACL in VPC.png]]
 
-- Components
-	- Network Interfaces
+#### Components
+- Network Interfaces
 
-- Guide
-	- https://tutorialsdojo.com/amazon-vpc/
-	- https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
+
+#### Guide
+- https://tutorialsdojo.com/amazon-vpc/
+- https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html

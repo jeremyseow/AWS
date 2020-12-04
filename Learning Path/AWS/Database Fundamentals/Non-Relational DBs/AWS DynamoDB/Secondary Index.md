@@ -14,6 +14,9 @@
 		- Allows you to query across the entire table to find any record that matches a value
 		- Global secondary indexes use storage space that is separate from the main table
 			- You must configure provision throughput for each global secondary index, just like you do for a table
+			- When you read from the index, RCU is consumed from the index, not the base table. If the request exceeds the read capacity of the index, it will be throttled
+			- When you write to a table, the index will be updated by DynamoDB as well, hence WCE will be consumed from both the table and the index. If the request exceeds the write capacity of the index, it will be throttled
+			- To avoid potential throttling, the provisioned write capacity for the index should be >= the write capacity of the base table since new updates will write to both the base table and the index
 		-  You can choose attributes from the base table to include in the index. This is called projecting attributes into the index
 			-  By default, all the attributes in the table are projected into the index, which uses more space and more throughput
 		- You can achieve the same result by creating separate tables instead of using secondary indexes

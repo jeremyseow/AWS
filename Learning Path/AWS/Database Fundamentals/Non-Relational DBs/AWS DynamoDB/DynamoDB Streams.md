@@ -12,6 +12,6 @@
 
 - Stream records are organized into shards, which acts as a container for multiple stream records, and contains information required for accessing and iterating through these records
 
-- Stream records have a lifetime of 24 hours, after which they will be removed from the stream
+- **Stream records have a lifetime of 24 hours**, after which they will be removed from the stream
 
 ![[DynamoDB Stream.png]]

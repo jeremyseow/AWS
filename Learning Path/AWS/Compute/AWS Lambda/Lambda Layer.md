@@ -3,7 +3,7 @@
 
 - Layers let you keep your deployment package small, which makes development easier. You can avoid errors that can occur when you install and package dependencies with your function code
 
-- A function can use up to 5 layers at a time. The total unzipped size of the function and all layers can’t exceed the unzipped deployment package size limit of 250 MB.
+- A function can use up to 5 layers at a time. **The total unzipped size of the function and all layers can’t exceed the unzipped deployment package size limit of 250 MB**
 
 - You can create layers, or use layers published by AWS and other AWS customers. Layers support resource-based policies for granting layer usage permissions to specific AWS accounts, AWS Organizations, or all accounts
 
