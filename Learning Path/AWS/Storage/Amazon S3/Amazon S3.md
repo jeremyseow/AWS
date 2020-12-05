@@ -15,6 +15,11 @@
 	- By default, you can create up to 100 within each AWS account but this can be increased if requested through AWS
 	- You cannot delete an S3 bucket using the Amazon S3 console if the bucket contains 100,000 or more objects
 	- You cannot delete an S3 bucket using the AWS CLI if versioning is enabled
+- Object
+	- Are private by default, need to grant permissions to other users
+	- Consists of a file and optionally any metadata that describes the file
+- Key
+	- A unique identifier for an object in a bucket
 
 #### [[Storage Class|Storage class]]
 

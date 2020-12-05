@@ -19,6 +19,6 @@
 #### Use cases
 
 - S3 is not part of your VPC, unlike your EC2 instances, EBS volumes, ELBs, and other services which typically reside within your private network
-- An EC2 instance needs to have access to the Internet, via the Internet Gateway or a NAT Instance/Gateway in order to access S3. Alternatively, you can also create a VPC endpoint so your private subnet would be able to connect to S3
+	- An EC2 instance needs to have access to the Internet, via the Internet Gateway or a NAT Instance/Gateway in order to access S3. Alternatively, you can also create a VPC endpoint so your private subnet would be able to connect to S3
 
 ![[VPC Endpoint Overview.png]]

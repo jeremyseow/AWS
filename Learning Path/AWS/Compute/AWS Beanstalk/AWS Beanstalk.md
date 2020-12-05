@@ -32,7 +32,7 @@
 	- A starting point for creating unique environment configurations
 - [[Environment Tiers|Environment tiers]]
 
-- [[Deployment Options|Deployment options]]
+- [[AWS/Compute/AWS Beanstalk/Deployment Options|Deployment options]]
 
 - [[Performance Monitoring|Monitoring]]
 

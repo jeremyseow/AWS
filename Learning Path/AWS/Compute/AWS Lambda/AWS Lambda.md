@@ -90,7 +90,8 @@
 	- CloudWatch will automatically create two different log groups, one for each function
 		- The log group name will be prefixed with *aws* and *lambda*
 
-
+#### Quotas
+- https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html
 
 #### Lambda@Edge
 - Lets you run Lambda functions to customize content that CloudFront delivers, executing the functions in AWS locations closer to the viewer

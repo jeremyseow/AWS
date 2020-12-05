@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AWS/Storage/Amazon S3/Storage Class.md",
+            "file": "AWS/Architecture/API Gateway/Lambda Authorizer.md",
             "mode": "source"
           }
         }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324
+    "width": 372
   },
   "right": {
     "id": "713a9f2f1a713790",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Storage/Amazon S3/Storage Class.md",
+                "file": "AWS/Architecture/API Gateway/Lambda Authorizer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,19 +82,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "lastOpenFiles": [
-    "AWS/Storage/Amazon S3/Storage Class.md",
-    "AWS/Storage/Amazon S3/Amazon S3.md",
+    "AWS/Architecture/API Gateway/Untitled.md",
+    "AWS/Architecture/API Gateway.md",
+    "AWS/Storage/Amazon S3/S3 Encryption.md",
+    "AWS/Security/AWS Key Management Service.md",
     "AWS/Storage/Amazon S3/Untitled.md",
-    "AWS/Storage/Amazon S3.md",
-    "AWS/Misc/Task Placement Strategy.md",
-    "AWS/Misc/Untitled.md",
-    "AWS/Security/Untitled.md",
-    "AWS/Compute/AWS Lambda/Concurrency.md",
-    "AWS/Compute/AWS Lambda/AWS Lambda.md",
-    "AWS/Coordination/Untitled.md"
+    "AWS/IAM/Untitled.md",
+    "AWS/Security/AWS Secrets Manager.md",
+    "AWS/Security/AWS Systems Manager/Parameter Store.md",
+    "AWS/Security/AWS Systems Manager/AWS Systems Manager.md",
+    "AWS/Security/Untitled.md"
   ]
 }

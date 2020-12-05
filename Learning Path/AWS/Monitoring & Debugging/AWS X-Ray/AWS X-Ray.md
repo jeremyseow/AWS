@@ -65,6 +65,7 @@
 	
 ![[X-Ray Filter Expression.png]]
 
+#### [[Instrumentation]]
 
 #### Performance
 - Sampling rules

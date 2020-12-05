@@ -9,10 +9,13 @@
 		- The destination is the CIDR block and the target is _local_
 		- You have a limit on the number of CIDR blocks you can associate with a VPC and number of routes you can add to a route table
 
-- Subnet security
-	- [[Security Group]]
-	- [[Network Access Control List (NACL)]]
-	- [[Flow Logs]]
+#### Subnet routing
+- [[Route Table]]
+
+#### Subnet security
+- [[Security Group]]
+- [[Network Access Control List (NACL)]]
+- [[Flow Logs]]
 
 ![[Security group vs Network ACL.png]]
 ![[Security group and Network ACL in VPC.png]]
