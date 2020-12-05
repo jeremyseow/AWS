@@ -13,3 +13,7 @@ If you configure CloudFront to require HTTPS both to communicate with viewers an
 5. CloudFront decrypts the response, re-encrypts it, and forwards the object to the viewer. CloudFront also saves the object in the edge cache so that the object is available the next time it’s requested.
 
 6. The viewer decrypts the response.
+
+## SSL/TLS Certificate
+#### About 3rd Party
+If you got your certificate from a third-party CA, import the certificate into AWS Certificate Manager (ACM) or upload it to the IAM certificate store

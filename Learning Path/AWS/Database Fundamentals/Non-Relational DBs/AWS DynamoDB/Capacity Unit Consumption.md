@@ -13,3 +13,8 @@
 	- Transactional write requests require 2 write request units to perform one write for items up to 1 KB
 	- The total number of write request units required depends on the item size
 	- For example, if your item size is 2 KB, you require 2 write request units to sustain 1 write request or 4 write request units for a transactional write request.
+
+## Conserving Capacity Unit
+- Use `Query` instead of `Scan`
+- Reduce Page Size
+	- Each `Query` or `Scan` request that has a smaller page size uses fewer read operations and creates a “pause” between each request

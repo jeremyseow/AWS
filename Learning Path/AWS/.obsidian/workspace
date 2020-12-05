@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "2eb6e1ade9d9a543",
+    "id": "080afb2c2020bab7",
     "type": "split",
     "children": [
       {
-        "id": "476a45ce1c5da093",
+        "id": "cc934c888511cba2",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AWS/Database Fundamentals/Non-Relational DBs/AWS DynamoDB/Capacity Unit Consumption.md",
+            "file": "Security group and Network ACL in VPC.png.md",
             "mode": "source"
           }
         }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "31b4f76cd46784a4",
+    "id": "b87903f52ea8b9c8",
     "type": "split",
     "children": [
       {
-        "id": "9243a651acde98a3",
+        "id": "bb271135f433ca7c",
         "type": "tabs",
         "children": [
           {
-            "id": "a0a0baad9d6bbbb4",
+            "id": "19a7ef66665b21e5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "7a780c7c1150982e",
+            "id": "7d9744566ffe5c67",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -53,23 +53,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372
+    "width": 300
   },
   "right": {
-    "id": "713a9f2f1a713790",
+    "id": "76ccd5d631a2ae84",
     "type": "split",
     "children": [
       {
-        "id": "0e2c6079a4980dc2",
+        "id": "a5a34ebd7bdd2fde",
         "type": "tabs",
         "children": [
           {
-            "id": "68e99158736bab9f",
+            "id": "44c5face42e2514b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Database Fundamentals/Non-Relational DBs/AWS DynamoDB/Capacity Unit Consumption.md",
+                "file": "Security group and Network ACL in VPC.png.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,19 +82,17 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "lastOpenFiles": [
-    "AWS/Database Fundamentals/Non-Relational DBs/AWS DynamoDB/Capacity Unit Consumption.md",
-    "AWS/Database Fundamentals/Non-Relational DBs/AWS DynamoDB/AWS DynamoDB.md",
-    "AWS/Compute/AWS Lambda/Event Sources.md",
-    "AWS/Compute/AWS Lambda/Concurrency.md",
-    "AWS/Compute/AWS Lambda/Best Practices.md",
-    "AWS/CICD/CloudFormation/AWS CloudFormation.md",
-    "AWS/CICD/AWS CodeDeploy.md",
-    "AWS/Compute/AWS Lambda/Lambda Deployment.md",
-    "AWS/Compute/AWS Beanstalk/Environment Tiers.md",
-    "AWS/CICD/CodeDeploy.md"
+    "Security group and Network ACL in VPC.png.md",
+    "Architecture/VPC/VPC.md",
+    "Security group vs Network ACL.png.md",
+    "Storage/Amazon S3.md",
+    "Architecture/VPC/VPC Subnet.md",
+    "Architecture/VPC/VPC Endpoint.md",
+    "Architecture/VPC/Security Group.md",
+    "Architecture/VPC/Network Access Control List (NACL).md",
+    "Architecture/VPC/Flow Logs.md"
   ]
 }

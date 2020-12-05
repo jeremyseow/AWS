@@ -11,7 +11,7 @@
 - Segment
 	- Provides the name of the compute resources running your application logic, details about the request sent by your application
 - Subsegment
-	- Contains details about a call to an external component, such as AWS services, HTTP APIs, or databases
+	- Contains details about a call to an external component, such as AWS services (`aws` for AWS SDK calls), HTTP APIs (`remote` for downstream calls), or databases
 	- Represent the application's view of downstream calls as a client
 	- If the downstream services are not instrumented with X-Ray
 		- X-Ray uses the subsegments to generate **inferred segments and downstream nodes** on the service map
@@ -44,6 +44,8 @@
 	- You can view annotations and metadata in the segment or subsegment details in the X-Ray console
 - [[X-Ray SDK]]
 - X-Ray API
+	- Uploads **segment documents**, NOT trace segment
+	- Trace segment: JSON representation of a request that your application serves
 - [[X-Ray daemon]]
 
 
