@@ -4,7 +4,7 @@
 	- No database administration, no servers to manage, scalable and resilient
 	- Schema-less
 
-- 
+- To prevent overwriting use *optimistic locking* (version number)
 
 #### Components
 - Table

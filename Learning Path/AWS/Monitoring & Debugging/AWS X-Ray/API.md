@@ -1,0 +1,5 @@
+- `GetTraceSummaries` : Retrieves IDs and annotations for traces available for a specified time frame using an optional filter
+- `BatchGetTraces` : Retrieve the list of traces specified by ID. Full trace details with segment details. **Does not support filter expressions nor returns the annotation**
+- `GetGroup`: Retrieves the group resource details
+- `GetServiceGraph`: Retrieves a document that describes services that process incoming requests, and downstream services that they call as a result
+- `PutTraceSegment`: You can send segment documents directly to X-Ray by using this
