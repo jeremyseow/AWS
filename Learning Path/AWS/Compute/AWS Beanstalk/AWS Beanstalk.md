@@ -5,6 +5,9 @@
 -	Elastic Beanstalk is compatible with the following: 
 	- Packer Builder, Single Container Docker, Multicontainer Docker, Preconfigured Docker, Go, Java SE, Java with Tomcat, .NET on Windows Server with IIS, Node.js, PHP, Python, and Ruby
 
+- Elastic Beanstalk uses [[AWS CloudFormation]] to launch the resources in your environment and propagate configuration changes
+	- AWS CloudFormation supports Elastic Beanstalk application environments as one of the AWS resource types.
+
 - Workflow
 
 ![[AWS Beanstalk Workflow.png]]

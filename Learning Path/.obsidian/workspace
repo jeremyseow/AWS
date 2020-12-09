@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "2eb6e1ade9d9a543",
+    "type": "split",
+    "children": [
+      {
+        "id": "09ee3ae921afe2b1",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "AWS/IAM/IAM Access Analyzer.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "31b4f76cd46784a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "9243a651acde98a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0a0baad9d6bbbb4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7a780c7c1150982e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372
+  },
+  "right": {
+    "id": "713a9f2f1a713790",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e2c6079a4980dc2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68e99158736bab9f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AWS/IAM/IAM Access Analyzer.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "AWS/IAM/Untitled.md",
+    "AWS/CICD/CloudFormation/Template.md",
+    "AWS/Architecture/Untitled.md",
+    "AWS/Communication/Simple Queue Service (SQS).md",
+    "AWS/Billing/Untitled.md",
+    "AWS/CICD/Untitled.md",
+    "AWS/Compute/ECS/Elastic Container Service (ECS).md",
+    "AWS/Compute/ECS/Untitled.md",
+    "AWS/CICD/CloudFormation/Syntax.md",
+    "AWS/CICD/CloudFormation/AWS CloudFormation.md"
+  ]
+}

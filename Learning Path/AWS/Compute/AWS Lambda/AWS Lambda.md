@@ -15,6 +15,7 @@
 
 #### Components
 
+- [[Execution Context]]
 - Function
 	- A script or program that runs in Lambda
 	- Lambda passes invocation events to the function, which processes it and returns a response
