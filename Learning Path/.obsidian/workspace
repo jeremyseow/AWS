@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "09ee3ae921afe2b1",
+        "id": "476a45ce1c5da093",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AWS/CICD/AWS CodeDeploy/Deployment Options.md",
+            "file": "AWS/Security/AWS IAM/IAM API.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cloudtrail",
+                "query": "aws service role",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/CICD/AWS CodeDeploy/Deployment Options.md",
+                "file": "AWS/Security/AWS IAM/IAM API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,18 +82,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "lastOpenFiles": [
-    "AWS/CICD/AWS CodeDeploy/Deployment Options.md",
-    "AWS/CICD/AWS CodeDeploy/AWS CodeDeploy.md",
-    "AWS/Storage/Elastic Block Storage (EBS).md",
-    "AWS/Communication/Simple Queue Service (SQS).md",
-    "AWS/Communication/Untitled.md",
-    "AWS/Compute/AWS Lambda/AWS Lambda.md",
-    "AWS/Streaming/Kinesis/Kinesis Data Streams.md",
-    "AWS/Monitoring & Debugging/AWS CloudWatch/AWS CloudWatch.md",
-    "AWS/Monitoring & Debugging/AWS CloudWatch/Alarm.md",
-    "AWS/Monitoring & Debugging/AWS CloudWatch/Event.md"
+    "AWS/Security/AWS IAM/IAM API.md",
+    "AWS/Security/AWS IAM/IAM certificate store.md",
+    "AWS/Security/AWS IAM/IAM Policy Simulator.md",
+    "AWS/Security/AWS IAM/Untitled.md",
+    "AWS/Security/AWS IAM/Access Advisor.md",
+    "AWS/Security/AWS IAM/AWS Identity & Access Management (IAM).md",
+    "AWS/Security/AWS IAM/IAM Access Analyzer.md",
+    "AWS/Security/AWS Key Management Service (KMS).md",
+    "AWS/IAM/AWS IAM.md",
+    "AWS/Architecture/Load Balancer.md"
   ]
 }
