@@ -1,5 +1,12 @@
 # Elastic Block Storage (EBS)
 
+- AZ-locked
+- To move between AZ and regions, must create a snapshot and create new volume from snapshot in the targeted AZ/region
+
+#### Encryption
+- To encrypt a EBS volume, you must create a snapshot, then encrypt snapshot, then restore encrypted volume
+- Once encrypted/unencrypted, you can't change the type
+- Setting by **region**
 
 #### Attaching volume
 - After you attach an Amazon EBS volume to your instance, it is exposed as a block device

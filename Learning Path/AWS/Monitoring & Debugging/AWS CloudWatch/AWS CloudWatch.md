@@ -9,3 +9,7 @@
 	- If you put your own custom metrics into the repository, you can retrieve statistics on these metrics as well
 	
 - You can use metrics to calculate statistics and then present the data graphically in the CloudWatch console
+
+## Monitoring
+Detailed - 1 minute intervals
+Basic - 5 minute intervals

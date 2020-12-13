@@ -1,10 +1,10 @@
 # Deployment Options
 
-- CodeDeploy provides two deployment type options:
+CodeDeploy provides two deployment type options:
 
-	- In-place deployment
-		- The application on each instance in the deployment group is stopped, the latest application revision is installed, and the new version of the application is started and validated. You can use a load balancer so that each instance is deregistered during its deployment and then restored to service after the deployment is complete
-		- ==Only deployments that use the EC2/On-Premises compute platform can use in-place deployments==
+- In-place deployment
+	- The application on each instance in the deployment group is stopped, the latest application revision is installed, and the new version of the application is started and validated. You can use a load balancer so that each instance is deregistered during its deployment and then restored to service after the deployment is complete
+	- ==Only deployments that use the EC2/On-Premises compute platform can use in-place deployments==
 
 - Blue/green deployment
 	- EC2/On-Premises compute platform

@@ -9,6 +9,11 @@
 
 - By default, Amazon API Gateway assigns an internal domain to the API that automatically uses the Amazon API Gateway certificate. When configuring your APIs to run under a custom domain name, you can provide your own certificate for the domain
 
+#### Authentication Methods
+- Cognito User Pools
+- Lambda Authorizer
+- AWS IAM roles and policy
+
 #### CloudWatch Metrics
 - Monitor the `IntegrationLatency` metrics to measure the responsiveness of the backend.
 - Monitor the `Latency` metrics to measure the overall responsiveness of your API calls.
