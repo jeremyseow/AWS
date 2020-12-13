@@ -6,7 +6,7 @@
 	- Every secondary index is automatically maintained by DynamoDB. When you add, modify, or delete items in the base table, any indexes on that table are also updated to reflect these changes
 
 - Differences with indexes in Relational Database
-	- Each query can only use one index. If you want to query and match on two different columns, you need to create an index that can do that properly
+	- ==Each query can only use one index.== If you want to query and match on two different columns, you need to create an index that can do that properly
 	- When you write your queries, you need to specify exactly which index should be used for each query. It is not like a relational database that has a query analyzer, which can automatically decide which indexes to use for our query. Here, you need to be explicit and tell DynamoDB what index to use
 
 - 2 types of secondary indexes
@@ -15,7 +15,7 @@
 		- Global secondary indexes use storage space that is separate from the main table
 			- You must configure provision throughput for each global secondary index, just like you do for a table
 			- When you read from the index, RCU is consumed from the index, not the base table. If the request exceeds the read capacity of the index, it will be throttled
-			- When you write to a table, the index will be updated by DynamoDB as well, hence WCE will be consumed from both the table and the index. If the request exceeds the write capacity of the index, it will be throttled
+			- When you write to a table, the index will be updated by DynamoDB as well, hence ==WCU will be consumed from both the table and the index.== If the request exceeds the write capacity of the index, it will be throttled
 			- To avoid potential throttling, the provisioned write capacity for the index should be >= the write capacity of the base table since new updates will write to both the base table and the index
 		-  You can choose attributes from the base table to include in the index. This is called projecting attributes into the index
 			-  By default, all the attributes in the table are projected into the index, which uses more space and more throughput

@@ -18,3 +18,7 @@
 - API deployment
 	- A point-in-time snapshot
 
+
+#### Cache
+
+- To invalidate caching for the API clients to get the most recent responses, use the `Header Cache-Control: max-age=0`

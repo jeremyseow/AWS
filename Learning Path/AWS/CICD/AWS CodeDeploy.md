@@ -1,9 +1,0 @@
-CodeDeploy is a deployment service that automates application deployments to** Amazon EC2 instances, on-premises instances, serverless Lambda functions, or Amazon ECS services**. Communicates on **Port 443**
-
-## Deployment Types
-- In-place deployment:  Only deployments that use the **EC2/On-Premises** compute platform can use in-place deployments. AWS Lambda compute platform deployments cannot use an in-place deployment type.
-
-- Blue/green deployment: The behavior of your deployment depends on which compute platform you use:
-	– Blue/green on an EC2/On-Premises compute platform: The instances in a deployment group (the original environment) are replaced by a different set of instances (the replacement environment). If you use an EC2/On-Premises compute platform, be aware that blue/green deployments work with Amazon EC2 instances only. CodeDeploy must be installed on the agent
-	– Blue/green on an AWS Lambda compute platform: Traffic is shifted from your current serverless environment to one with your updated Lambda function versions. You can specify Lambda functions that perform validation tests and choose the way in which the traffic shift occurs. All AWS Lambda compute platform deployments are blue/green deployments. For this reason, you do not need to specify a deployment type.
-	– Blue/green on an Amazon ECS compute platform: Traffic is shifted from the task set with the original version of a containerized application in an Amazon ECS service to a replacement task set in the same service. The protocol and port of a specified load balancer listener are used to reroute production traffic. During deployment, a test listener can be used to serve traffic to the replacement task set while validation tests are run.

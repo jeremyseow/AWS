@@ -6,9 +6,13 @@
 ![[SSE-S3 Encryption.png]]
 ![[SSE-S3 Decryption.png]]
 
+- `'x-amz-server-side-encryption': 'AES256'`
+
 #### SSE-KMS
 ![[SSE-KMS Encryption.png]]
 ![[SSE-KMS Decryption.png]]
+
+- `'x-amz-server-side-encryption': 'aws:kms'`
 
 #### SSE-C
 ![[SSE-C Encryption.png]]

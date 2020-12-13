@@ -30,12 +30,19 @@
 
 
 #### Security
-- Files are transferred to and from repositories using 
+- Files are transferred to and from repositories and ==encrypted in transit== using 
 	- HTTPS
 		- Static username and password are generated
+			- This is the git credential generated for you by IAM
+			- This is not your IAM username and password credentials
+		- AWS access keys
+			- You can use with the credential helper included with the AWS CLI to communicate with CodeCommit repositories over HTTPS
+			- This is the only connection method for CodeCommit repositories that ==does not require an IAM user==
+			- This is also the only method that works with federated access and temporary credentials
 	- SSH
 		- Use public and private keys
-- repositories are automatically encrypted at rest through AWS KMS
+- Repositories are automatically ==encrypted at rest== through AWS KMS
+	- https://docs.aws.amazon.com/codecommit/latest/userguide/encryption.html
 - Temporary access to repositories can be given through SAML, Federation, Cross-account access, Amazon Cognito
 
 #### Availability
@@ -56,20 +63,20 @@
 
 #### Commands
 - To copy a remote respository to your local computer
-	- git clone
+	- `git clone`
 - To connect to the respository after the name is changed
-	- git remove set-url \<URL>
+	- `git remove set-url \<URL>`
 - To push changes to repository
-	- git push \<remote-name> \<branch-name>
+	- `git push \<remote-name> \<branch-name>`
 - To pull changes from repository
-	- git pull \<remote-name> \<branch-name>
+	- `git pull \<remote-name> \<branch-name>`
 - To create a new commit on a branch
-	- git commit -m \<message>
-	- AWS CLI command: create-commit
+	- `git commit -m \<message>`
+	- AWS CLI command: `reate-commit`
 - To create a new branch in local repository
-	- git checkout -b \<new-branch-name>
-	- AWS CLI command: create-branch
+	- `git checkout -b \<new-branch-name>`
+	- AWS CLI command: `create-branch`
 - To review changes in a pull request and resolve merge conflicts
-	- git diff
+	- `git diff`
 - To merge a pull request
-	- git merge
+	- `git merge`

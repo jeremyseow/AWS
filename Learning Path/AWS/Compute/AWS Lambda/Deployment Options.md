@@ -1,3 +1,6 @@
+# Deployment Options
+
+
 |Deployment Preference Type|
 |------------------------|
 |Canary10Percent30Minutes|

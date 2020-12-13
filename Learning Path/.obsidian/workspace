@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AWS/IAM/IAM Access Analyzer.md",
+            "file": "AWS/Communication/Simple Queue Service (SQS).md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cloudtrail",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/IAM/IAM Access Analyzer.md",
+                "file": "AWS/Communication/Simple Queue Service (SQS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,15 +85,15 @@
     "width": 300
   },
   "lastOpenFiles": [
-    "AWS/IAM/Untitled.md",
-    "AWS/CICD/CloudFormation/Template.md",
-    "AWS/Architecture/Untitled.md",
     "AWS/Communication/Simple Queue Service (SQS).md",
-    "AWS/Billing/Untitled.md",
-    "AWS/CICD/Untitled.md",
-    "AWS/Compute/ECS/Elastic Container Service (ECS).md",
-    "AWS/Compute/ECS/Untitled.md",
-    "AWS/CICD/CloudFormation/Syntax.md",
-    "AWS/CICD/CloudFormation/AWS CloudFormation.md"
+    "AWS/Communication/Untitled.md",
+    "AWS/Compute/AWS Lambda/AWS Lambda.md",
+    "AWS/Streaming/Kinesis/Kinesis Data Streams.md",
+    "AWS/Monitoring & Debugging/AWS CloudWatch/AWS CloudWatch.md",
+    "AWS/Monitoring & Debugging/AWS CloudWatch/Alarm.md",
+    "AWS/Monitoring & Debugging/AWS CloudWatch/Event.md",
+    "AWS/Monitoring & Debugging/AWS CloudWatch/Untitled.md",
+    "AWS/CICD/AWS CodeBuild.md",
+    "AWS/Database Fundamentals/Non-Relational DBs/AWS DynamoDB/Best Practices.md"
   ]
 }

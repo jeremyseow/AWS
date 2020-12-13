@@ -1,5 +1,9 @@
 # AWS CodeBuild
 
+
+
+
+
 - With the Local Build support for AWS CodeBuild, you just specify the location of your source code, choose your build settings, and CodeBuild runs build scripts for compiling, testing, and packaging your code
 
 - You can use the AWS CodeBuild agent to test and debug builds on a local machine
@@ -12,3 +16,5 @@
 - It is not possible to SSH into the CodeBuild Docker container
 
 - You cannot freeze the CodeBuild process but you can stop it
+
+- CodeBuild scales automatically, you do not have to do anything for scaling or for parallel builds

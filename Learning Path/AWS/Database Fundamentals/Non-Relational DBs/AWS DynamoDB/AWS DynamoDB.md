@@ -54,6 +54,12 @@
 
 #### [[Commands]]
 
+#### [[AWS/Database Fundamentals/Non-Relational DBs/AWS DynamoDB/Best Practices|Best Practices]]
+
 #### Guide
 - https://tutorialsdojo.com/amazon-dynamodb/
 - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html?shortFooter=true
+
+
+
+

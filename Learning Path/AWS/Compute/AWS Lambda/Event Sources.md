@@ -15,9 +15,9 @@
 		- Not waiting for the results of an invocation before moving to the next one
 		- Order does not matter
 
--  When you manually invoke a Lambda function or when your custom-built application invokes it, you have the ability to use the *invoke* option, which allows you to specify if the function should be invoked synchronously or asynchronously
-	- https://docs.aws.amazon.com/lambda/latest/dg/API_Invoke.html
-- When using event sources to call and invoke your function, the invocation type is very dependent on the actual service itself
+-  When you manually invoke a Lambda function or when your custom-built application invokes it, you have the ability to use the *invoke* option, which allows you to specify if the function should be invoked synchronously or asynchronously. When using event sources to call and invoke your function, the invocation type is very dependent on the actual service itself
+	-  [[Invoke API]]
+
 ![[Lambda Event Sources.png]]
 
 - List of supported event sources

@@ -44,8 +44,11 @@
 	- Write the code using the code editor provided by Lambda
 	- Upload your application code in the form of one or more Lambda functions
 		- Package your code and dependencies in a deployment package, then upload the deployment package to create your Lambda function
-		- Use layers to manage your function's dependencies and keep your deployment package small
-		- **Lambda stores code in Amazon S3 and encrypts it at rest**
+			- ==A deployment package is a ZIP archive that contains your function code and dependencies==
+		- ==Use layers to manage your function's dependencies and keep your deployment package small==
+		- You can upload the package directly to Lambda, or to a S3 bucket, and then upload it to Lambda
+			- ==If the deployment package is larger than 50 MB, you must use  S3==
+			- Lambda will either take the package you uploaded directly, or copy the package in your S3 bucket, and store it in a private S3 bucket in ==encrypted form==
 		- https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-package.html
 	- Configure Lambda functions to execute your code upon specific triggers from supported event sources
 		- For example, a Lambda function could be triggered when an S3 event occurs, such as an object being uploaded to an S3 bucket
@@ -54,18 +57,22 @@
 	- Configure **basic function settings**
 		- Description
 		- Memory usage
-			- Specify the amount of memory used and AWS Lambda then calculates the CPU power required based off this selection
+			- ==Specify the amount of memory used and AWS Lambda then calculates the CPU power required based off this selection==
 			- Lambda bases this calculation from an instance within the general-purpose family of instances
-			- 128 Mb to 10240 Mb
+			- ==64MB increments from 128MB to 3008MB==
 		- Execution timeout
-			- Default value of 3 seconds and max of 900 seconds
+			- ==Default value of 3 seconds and max of 900 seconds (15 minutes)==
 		- Role required for AWS Lambda to assume and execute the code of your function
 	- Environment variables
 		- Key value pairs that allow you to incorporate variables into your function without embedding them directly into your code
 		- Encrypted at rest and can be encrypted in transit as well
+		- ==The total size of all environment variables doesn't exceed 4 KB==
+		- ==There is no limit defined on the number of variables that can be used==
 	- Use version and alias to manage function deployment and invocation
 
 #### [[Concurrency]]
+
+#### [[AWS/Compute/AWS Lambda/Deployment Options|Deployment options]]
 
 #### Monitoring
 - AWS Lambda automatically monitors functions on your behalf, reporting metrics through Amazon CloudWatch
@@ -94,6 +101,17 @@
 #### Quotas
 - https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html
 
+#### Security
+- Encryption in transit
+	- Lambda API endpoints only support secure connections over HTTPS
+	- When you manage Lambda resources with the AWS Management Console, AWS SDK, or the Lambda API, all communication is encrypted with Transport Layer Security (TLS)
+	- When you connect your function to a file system, Lambda uses Encryption in transit for all connections
+
+- Encryption at rest
+	- You can use environment variables to store secrets securely for use with Lambda functions
+		- ==Lambda always encrypts environment variables at rest==
+	- Lambda always encrypts files that you upload to Lambda, ==including deployment packages and layer archives==
+
 #### Lambda@Edge
 - Lets you run Lambda functions to customize content that CloudFront delivers, executing the functions in AWS locations closer to the viewer
 - The functions run in response to CloudFront events, without provisioning or managing servers
@@ -105,7 +123,7 @@
 
 ![[Lambda@Edge.png]]
 
-#### [[Best Practices]]
+#### [[AWS/Compute/AWS Lambda/Best Practices]]
 
 #### Guide
 

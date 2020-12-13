@@ -1,3 +1,5 @@
+# AWS Identity & Access Management (IAM)
+
 If you have resources which are running inside AWS, that needs programmatic access to various AWS services, then the best practice is to always use IAM roles. However, for applications running outside of an AWS environment, these will need access keys for programmatic access to AWS resources. For example, monitoring tools running on-premises and third-party automation tools will need access keys.
 
 Access keys are long-term credentials for an IAM user or the AWS account root user. You can use access keys to sign programmatic requests to the AWS CLI or AWS API (directly or using the AWS SDK).
@@ -21,3 +23,7 @@ The IAM policy simulator evaluates the policies that you choose and determines t
 – Because the simulator does not simulate running the selected actions, it cannot report any response to the simulated request. The only result returned is whether the requested action would be allowed or denied.
 
 – If you edit a policy inside the simulator, these changes affect only the simulator. The corresponding policy in your AWS account remains unchanged.
+
+
+
+ https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html

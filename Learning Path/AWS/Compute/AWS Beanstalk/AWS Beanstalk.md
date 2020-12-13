@@ -24,11 +24,11 @@
 	- An application version points to an Amazon S3 object that contains the deployable code
 	- Applications can have many versions and each application version is unique
 	- There is a limit to the number of application version
-		- Use **application version lifecycle policy** to delete application version that are old, or when the number of the application version exceeds a threshold
+		- Use ==application version lifecycle policy== to delete application version that are old, or when the number of the application version exceeds a threshold
 - Environment
 	-  Refers to an application version that has been deployed on to AWS resources
 	-  The environment is comprised of all the resources created by Elastic Beanstalk and not just an EC2 instance with your uploaded code
-	-  Each environment runs only a single application version at a time, however you can run the same version or different versions in many environments at the same time
+	-  ==Each environment runs only a single application version at a time==, however you can run the same version or different versions in many environments at the same time
 - Environment configuration
 	- A collection of parameters and settings that dictate how an environment will have its resources provisioned by Elastic Beanstalk and how these resources will behave
 - Configuration template

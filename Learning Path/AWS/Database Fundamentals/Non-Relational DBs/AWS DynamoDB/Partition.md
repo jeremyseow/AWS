@@ -26,7 +26,7 @@ max(6Gb/10Gb, (15000/3000 + 2000/1000))
 $$
 
 
-- Partitions can be split, and the table's number of partitions can grow but they can never be joined or reduced
+- ==Partitions can be split, and the table's number of partitions can grow but they can never be joined or reduced==
 
 - When there is a need to create new partitions, DynamoDB will start copying your data into two new partitions
 	- This happens transparently
@@ -36,9 +36,9 @@ $$
 
 
 - Issues with partitions
-	- when a table is split into partitions, each partition is given an equal slice of read capacity and write capacity
-		- problems can happen when your data or when your read and write traffic are not evenly distributed across all your partitions
-		- When you run out of provision capacity units in a partition, DynamoDB reads and writes stop functioning in that partition. Instead you get an exception called a “Provision Throughput Exceeded Exception”
+	- When a table is split into partitions, ==each partition is given an equal slice of read capacity and write capacity==
+		- Problems can happen when your data or when your read and write traffic are not evenly distributed across all your partitions
+		- When you run out of provision capacity units in a partition, DynamoDB reads and writes stop functioning in that partition. Instead you get an exception called a ==“Provision Throughput Exceeded Exception”==
 		- AWS claims that this resets every second, but it can take a few minutes or longer to get back to normal even if traffic levels drop quickly
 		- AWS will provide you with a little bit of burst capacity for each of your tables
 			- AWS uses the burst capacity themselves for background maintenance tasks so you cannot always rely on it. And they do not tell you how much burst capacity you have available or how much you have used
@@ -46,7 +46,7 @@ $$
 
 - Solutions
 	- Increase table’s provisioned capacity
-		- However, it can be very expensive, and you are increasing capacity for many partitions that do not need it
+		- However, it can be very expensive, and ==you are increasing capacity for many partitions that do not need it==
 	- Choose a partition key that will balance well
 		- You can auto generate an artificial partition key that will be unique for each record
 			- Every partition key would include exactly record, that way the data would never get out of balance

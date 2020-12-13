@@ -14,4 +14,6 @@
 
 - **Stream records have a lifetime of 24 hours**, after which they will be removed from the stream
 
+- Data expired using a TTL will appear as an event in your DynamoDB streams
+
 ![[DynamoDB Stream.png]]
