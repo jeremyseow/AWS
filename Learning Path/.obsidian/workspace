@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AWS/Communication/Simple Queue Service (SQS).md",
+            "file": "AWS/CICD/AWS CodeDeploy/Deployment Options.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Communication/Simple Queue Service (SQS).md",
+                "file": "AWS/CICD/AWS CodeDeploy/Deployment Options.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,15 +85,15 @@
     "width": 300
   },
   "lastOpenFiles": [
+    "AWS/CICD/AWS CodeDeploy/Deployment Options.md",
+    "AWS/CICD/AWS CodeDeploy/AWS CodeDeploy.md",
+    "AWS/Storage/Elastic Block Storage (EBS).md",
     "AWS/Communication/Simple Queue Service (SQS).md",
     "AWS/Communication/Untitled.md",
     "AWS/Compute/AWS Lambda/AWS Lambda.md",
     "AWS/Streaming/Kinesis/Kinesis Data Streams.md",
     "AWS/Monitoring & Debugging/AWS CloudWatch/AWS CloudWatch.md",
     "AWS/Monitoring & Debugging/AWS CloudWatch/Alarm.md",
-    "AWS/Monitoring & Debugging/AWS CloudWatch/Event.md",
-    "AWS/Monitoring & Debugging/AWS CloudWatch/Untitled.md",
-    "AWS/CICD/AWS CodeBuild.md",
-    "AWS/Database Fundamentals/Non-Relational DBs/AWS DynamoDB/Best Practices.md"
+    "AWS/Monitoring & Debugging/AWS CloudWatch/Event.md"
   ]
 }

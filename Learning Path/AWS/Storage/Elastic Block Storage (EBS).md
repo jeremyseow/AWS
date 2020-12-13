@@ -2,7 +2,10 @@
 
 - Offers persistent and durable block level storage
 
-- Provide point in time backup snapshots of the entire volume as and when you need to
+- AZ-locked
+	- To move between AZ and regions, must create a snapshot and create new volume from snapshot in the targeted AZ/region
+
+- Provide point-in-time backup snapshots of the entire volume as and when you need to
 	- You can manually invoke a snapshot of your volume at any time, or create some code to perform this automatically on a scheduled basis
 	- The snapshots themselves are then stored on [[Amazon S3]]
 	- The snapshots are incremental
@@ -25,6 +28,10 @@
 	- Only available on selected instance types
 	
 - You can encrypt both the boot and data volumes of an EC2 instance
+
+- To encrypt a EBS volume, you must create a snapshot, then encrypt snapshot, then restore encrypted volume
+	- Once encrypted/unencrypted, ==you cannot change the type==
+	- ==Setting by region==
 
 - When you create an encrypted EBS volume and attach it to a supported instance type, ==the following types of data are encrypted==
 	- Data at rest inside the volume

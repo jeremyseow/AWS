@@ -3,6 +3,7 @@
 - A serverless compute service which has been designed to allow you to run your application code without having to manage and provision your own EC2 instances
 
 - Lambda executes your code only when needed and scales automatically
+- Use *application auto scaling* to manage reserved concurrency
 
 - Natively supports the following languages
 	- Node.js
