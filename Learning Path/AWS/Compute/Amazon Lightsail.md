@@ -1,0 +1,3 @@
+- Similar to EC2, but less configuration and aimed at small-scale use cases for small businesses or single users
+- Can use blueprints such as Wordpress, LAMP, Node, etc
+- Only on-demand price

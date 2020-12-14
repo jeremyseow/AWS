@@ -20,6 +20,8 @@
 - [[Instance States]]
 - Key pairs
 	- Secure login information for your instances using key pairs (AWS stores the public key, and you store the private key in a secure place)
+	- Windows -> login, Linux -> SSH
+	- Can use on multiple instances
 - [[Storage]]
 - Firewall
 	- Enables you to specify the protocols, ports, and source IP ranges that can reach your instances using security groups
@@ -99,5 +101,3 @@
 	- `aws ec2 run-instances --image-id ami-09092360 --monitoring Enabled=true...`
 - To turn off detailed monitoring through CLI
 	- `aws ec2 unmonitor-instances --instance-ids i-1234567890abcdef0`
-
-#### [[Pricing]]
