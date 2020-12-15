@@ -1,6 +1,8 @@
 # Flow Logs
 - Capture information about IP traffic going to and from network interfaces in your VPC, which can be published to CloudWatch logs or S3
 
+- Have metadata about each traffic flow within your VPC and show whether the connection was accepted or rejected
+
 - Helps you with a number of tasks
 	- Diagnose overly restrictive security group rules
 	- Monitor the traffic that is reaching your instance

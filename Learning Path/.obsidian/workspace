@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AWS/CICD/AWS CodeDeploy/Deployment Options.md",
+            "file": "AWS/Compute/AWS Beanstalk/Performance Monitoring.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/CICD/AWS CodeDeploy/Deployment Options.md",
+                "file": "AWS/Compute/AWS Beanstalk/Performance Monitoring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,15 +85,15 @@
     "width": 300
   },
   "lastOpenFiles": [
+    "AWS/Compute/AWS Beanstalk/Performance Monitoring.md",
+    "AWS/Compute/AWS Beanstalk/AWS Beanstalk.md",
+    "AWS/Compute/AWS Beanstalk/Deployment Options.md",
+    "AWS/Compute/AWS Lambda/Deployment Options.md",
     "AWS/CICD/AWS CodeDeploy/Deployment Options.md",
-    "AWS/CICD/AWS CodeDeploy/AWS CodeDeploy.md",
-    "AWS/Storage/Elastic Block Storage (EBS).md",
-    "AWS/Communication/Simple Queue Service (SQS).md",
-    "AWS/Communication/Untitled.md",
-    "AWS/Compute/AWS Lambda/AWS Lambda.md",
-    "AWS/Streaming/Kinesis/Kinesis Data Streams.md",
-    "AWS/Monitoring & Debugging/AWS CloudWatch/AWS CloudWatch.md",
-    "AWS/Monitoring & Debugging/AWS CloudWatch/Alarm.md",
-    "AWS/Monitoring & Debugging/AWS CloudWatch/Event.md"
+    "AWS/Database Fundamentals/ElastiCache.md",
+    "AWS/Misc/Untitled.md",
+    "AWS/Database Fundamentals/Untitled.md",
+    "AWS/Database Fundamentals/Non-Relational DBs/Untitled.md",
+    "AWS/Storage/Storage Concepts.md"
   ]
 }

@@ -9,14 +9,19 @@
 		- Provided as a part of the EC2 service, hence, they effectively have the same security mechanisms provided by EC2 (IAM policies etc)
 		- Pros
 			- Storage used is included in the price of the EC2 instance, so no addtional storage cost
-			- The IOPS is higher than EBS
+			- ==The IOPS is higher than EBS==
 		- Cons
 			- Not all instance types support instance store volumes
+			- You must enable the volumes when you launch an Amazon EC2 instance, as you ==cannot add instance store volumes to an Amazon EC2 instance once it has been launched==
 			
 	- [[Elastic Block Storage (EBS)]]
 		- Persistant storage
 		- Network attached to the instance instead of directly attached like instance store volumes
-			- A single EBS volume can only ever be attached to a single EC2 instance but multiple EBS volumes can be attached to a single instance
+			- Although the EC2 instance treats the EBS volume as a local disk, the underlying host machine ==reads and writes to the EBS volume over the network==
+			- To maintain peak performance for this connection, you can use EBS-optimized instance types. ==EBS-optimized instances reserve dedicated network bandwidth specifically for traffic to the EBS volume==
+		- A single EBS volume can only ever be attached to a single EC2 instance but multiple EBS volumes can be attached to a single instance
+		- Decoupled from the underlying physical host running the instance
+			- Enables you to persist data even if your instance is no longer running on the physical host
 
 
 #### Root device volume

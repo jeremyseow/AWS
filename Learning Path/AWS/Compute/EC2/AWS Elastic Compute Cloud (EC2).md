@@ -4,10 +4,13 @@
 
 - Eliminates your need to invest in hardware up front, so you can develop and deploy applications faster
 
+- You have the flexibility to choose the hardware resources you need. You are in control of the operating system and any other software that will run on the instance
+
 #### Component
 
 - Instance
 	- A virtual server in the cloud
+	- Runs on a host machine within a specific AZ
 	- Its configuration at launch is a copy of the AMI that you specified when you launched the instance
 	- You can launch different types of instances from a single AMI
 	- After you launch an instance, it looks like a traditional host, and you can interact with it as you would any computer. ==You have complete control of your instances==
@@ -16,6 +19,8 @@
 		- https://aws.amazon.com/ec2/faqs/#how-many-instances-ec2
 - [[Amazon Machine Image (AMI)]]
 - Instance types
+	- Instances can be resized (changing of instance type) after they are launched, provided that they are stopped during the resize 
+	- Choose your hardware resources from a broad set of preconfigured options by selecting a specific instance type and instance size
 	- https://aws.amazon.com/ec2/instance-types/
 - [[Instance States]]
 - Key pairs
@@ -39,6 +44,9 @@
 	- Limited to 16 KB
 	- Not encrypted
 - [[VPC]]
+- Default user
+	- The default user for Amazon Linux instances is *ec2-user*
+	- Varies based on AMI providers
 
 
 #### Placement groups
