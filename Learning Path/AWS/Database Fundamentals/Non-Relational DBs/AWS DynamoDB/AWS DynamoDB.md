@@ -17,6 +17,7 @@
 	- Can be thought of as a row
 	- DynamoDB uses primary keys to uniquely identify each item in a table and secondary indexes to provide more querying flexibility
 	- Each table can contain 0 or more items
+	- Maximum size of an item in an DynamoDB table is 400 KB
 
 - Attribute
 	- A fundamental data element

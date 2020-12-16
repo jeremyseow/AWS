@@ -18,7 +18,7 @@
 
 - Test new policies that are not yet attached to a user, group, or role by typing or copying them into the simulator. These are used only in the simulation and are not saved. Take note that you cannot type or copy a resource-based policy into the simulator. To use a resource-based policy in the simulator, you must include the resource in the simulation and select the checkbox to include that resource’s policy in the simulation.
 
-- Test the policies with selected services, actions, and resources. For example, you can test to ensure that your policy allows an entity to perform the *ListAllMyBuckets, CreateBucket, and DeleteBucket* actions in the Amazon S3 service on a specific bucket.
+- Test the policies with selected services, actions, and resources. For example, you can test to ensure that your policy allows an entity to perform the `ListAllMyBuckets, CreateBucket, and DeleteBucket` actions in the Amazon S3 service on a specific bucket.
 
 - Simulate real-world scenarios by providing context keys, such as an IP address or date, that are included in Condition elements in the policies being tested.
 

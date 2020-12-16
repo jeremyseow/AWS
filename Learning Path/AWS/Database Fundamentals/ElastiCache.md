@@ -10,6 +10,7 @@
 		- Redis is an increasingly popular open-source, in-memory key-value store that supports more advanced data structures, such as sorted sets, hashes, and lists
 		- ==Unlike Memcached, Redis has disk persistence built in==, meaning that you can use it for long-lived data
 		- ==Redis also supports replication, which can be used to achieve Multi-AZ redundancy, similar to Amazon RDS==
+		- Default limit is 20 nodes per cluster
 
 Although both Memcached and Redis appear similar on the surface, in that they are both
 in-memory key stores, they are quite different in practice. Because of the replication and

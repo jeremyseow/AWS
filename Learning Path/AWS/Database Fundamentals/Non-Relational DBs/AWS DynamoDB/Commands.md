@@ -14,7 +14,17 @@
 	- NONE — no write capacity details are returned. (This is the default.)
 
 
-To read data from a table, you use operations such as GetItem, Query, or Scan. DynamoDB returns all of the item attributes by default. To get just some, rather than all of the attributes, use a projection expression.
+To read data from a table, you use operations such as 
+- GetItem
+	- GetItem retrieves a single item from a table
+	- This is the most efficient way to read a single item because it provides direct access to the physical location of the item.
+- Query
+	- Query retrieves all the items that have a specific partition key
+- Scan
+	- Retrieves all of the items in the specified table
+	- It can consume large amounts of system resources based on the size of the table
+
+DynamoDB returns all of the item attributes by default. To get just some, rather than all of the attributes, use a projection expression
 
 A projection expression is a string that identifies the attributes you want. To retrieve a single attribute, specify its name. For multiple attributes, the names must be comma-separated.
 

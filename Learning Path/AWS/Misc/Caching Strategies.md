@@ -17,4 +17,5 @@
 		- A write to the cache and a write to the database
 	- Another disadvantage is that because most data is never read in many applications, the data or information that is stored in the cluster is never used
 		- This storage incurs a cost for space and overhead due to the duplicate data
-		- In addition, if your data is updated frequently, the cache may be updating often, causing cache churn
+		- In addition, if your data is updated frequently, the cache may be updating often, causing *cache churn*
+			- *Cache churn* means a lot of cache data in the cluster are never read

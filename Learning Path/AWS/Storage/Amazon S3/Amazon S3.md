@@ -4,7 +4,7 @@
 
 - For PUT operations with new objects not yet in Amazon S3, you will experience *[[Storage Concepts#^34ecc5|read-after-write consistency]]*. For PUT updates when you are overwriting an existing file or DELETE operations, you will experience *[[Storage Concepts#^7fadf5|eventual consistency]]*
 
-- Min file size = 0b, max file dize = 5Tb
+- ==Min file size = 0b, max file dize = 5Tb==
 
 - Objects stored in S3 have a durability of 11 nines (99.999999999%)
 	- Probability of maintaining your data without it being lost through corruption, degradation of data, or other unknown potential damaging effects
@@ -20,8 +20,8 @@
 
 #### Component
 - Bucket
-	- Bucket name must be completely unique, globally across all other S3 buckets that exist and it must be DNS-compliant
-	- After you create the bucket you cannot change the name
+	- ==Bucket name must be completely unique==, globally across all other S3 buckets that exist and it must be DNS-compliant
+	- ==After you create the bucket you cannot change the name==
 	- The bucket name is visible in the URL that points to the objects that you’re going to put in your bucket
 	- You cannot create a bucket within another bucket
 	- A bucket is owned by the AWS account that created it, and bucket ownership is not transferable

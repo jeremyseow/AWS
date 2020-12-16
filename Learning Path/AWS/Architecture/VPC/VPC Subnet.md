@@ -11,7 +11,7 @@
 - Types of subnets
 	- Public subnet
 		- Has an internet gateway
-		- public subnets have a ==route table entry that forwards internet-bound traffic to an internet gateway==
+		- Public subnets have a ==route table entry that forwards internet-bound traffic to an internet gateway==
 		- For resources that must be connected to the internet
 	- Private subnet
 		- Does not have an internet gateway

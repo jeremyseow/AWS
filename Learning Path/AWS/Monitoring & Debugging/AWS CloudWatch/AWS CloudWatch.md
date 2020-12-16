@@ -4,7 +4,7 @@
 
 - You can use CloudWatch to collect and track metrics, which are variables you can measure for your resources and applications
 
-- CloudWatch is basically a metrics repository
+- CloudWatch is ==basically a metrics repository==
 	- An AWS service, such as EC2, puts metrics into the repository, and you retrieve statistics based on those metrics
 	- If you put your own custom metrics into the repository, you can retrieve statistics on these metrics as well
 	
@@ -42,6 +42,19 @@
 	- A period is the length of time associated with a specific statistic
 		- The default value is 60 seconds
 	- CloudWatch aggregates statistics according to the period length that you sepcify when retrieving statistics
+- Value
+	- The measurement for the data point
+- Unit
+	- Unit of measurement used to label your data. This offers a better understanding of what the value represents
+	- Example units include Bytes, Seconds, Count, and Percent. If you do not specify a unit in CloudWatch, your data point units are designated as None
+
+#### Retention period
+- CloudWatch stores this data based on the retention period, which is the length of time to keep data points available
+- Data points are stored in CloudWatch based on how often the data points are published
+	- Data points with a published frequency less than 60 seconds are available for 3 hours (high-resolution, custom metrics)
+	- Data points with a published frequency of 60 seconds (1 minute) are available for 15 days (standard resolution)
+	- Data points with a published frequency of 300 seconds (5 minutes) are available for 63 days
+	- Data points with a published frequency of 3,600 seconds (1 hour) are available for 455 days (15 months)
 
 #### [[Alarm]]
 

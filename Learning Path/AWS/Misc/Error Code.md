@@ -3,6 +3,7 @@
 Throttling: HTTP 502 or 429
 If executing the function would cause you to exceed a concurrency limit at either the account level (`ConcurrentInvocationLimitExceeded`) or function level (`ReservedFunctionConcurrentInvocationLimitExceeded`), Lambda may return a `TooManyRequestsException` as a response
 
+#### HTTP errors
 - 4XX errors
 	- 403 Forbidden error
 		-  Authorization failures for missing authentication token error, invalid AWS signature error, or Amazon Cognito authentication problems
@@ -29,3 +30,6 @@ If executing the function would cause you to exceed a concurrency limit at eithe
 		- For example, If the AWS Lambda service encountered an internal error
 	- InvalidParameterValueException
 		- For example, if you provided an IAM role in the CreateFunction API which AWS Lambda is unable to assume
+	- ResourceFailedToStabilize error
+		- For example, CloudFormation stack actions, like updates, took too long and the session credentials expire
+		- Use a service role extends the default timeout value

@@ -23,12 +23,12 @@
 -  S3 does not store the encryption key you provide. Instead, it stores a randomly salted HMAC value of the encryption key in order to validate future requests
 -  The salted HMAC value cannot be used to derive the value of the encryption key or to decrypt the contents of the encrypted object. ==That means, if you lose the encryption key, you lose the object==
 -   You must provide encryption key information using the following request headers:
-	- x-amz-server-side-encryption-customer-algorithm
+	- `x-amz-server-side-encryption-customer-algorithm`
 		- This header specifies the encryption algorithm
 		- ==The header value must be “AES256”==
-	- x-amz-server-side-encryption-customer-key
+	- `x-amz-server-side-encryption-customer-key`
 		- This header provides the ==256-bit, base64-encoded encryption key== for Amazon S3 to use to encrypt or decrypt your data
-	- x-amz-server-side-encryption-customer-key-MD5
+	- `x-amz-server-side-encryption-customer-key-MD5`
 		- This header provides the ==base64-encoded 128-bit MD5 digest of the encryption key according to RFC 1321==
 		- Amazon S3 uses this header for a message integrity check to ==ensure the encryption key was transmitted without error==
 
