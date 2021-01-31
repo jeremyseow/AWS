@@ -7,17 +7,21 @@
 	- Recovering an earlier version
 	- Retrieving deleted objects
 
-- Versioning is turned off by default
+- Versioning is disabled by default
 
-- When you turn on versioning, Amazon S3 will create new versions of your object every time you overwrite a particular object key
+- When you enable versioning, Amazon S3 will create new versions of your object every time you overwrite a particular object key
 	- You can have ==two objects with the same key, but different version IDs==
 	- You can retrieve any of the particular objects that you need using `GET` on the object key name and the particular version
+
+- After versioning is enabled, it cannot be disabled, only suspended
+	- No new versions will be created but existing versions will be retained
 
 ![[S3 Versioning.png]]
 
 - When a delete request is issued against a versioned bucket on a particular object, ==S3 still retains the data, but it removes access for users to retrieve that data==
 	- S3 places a delete marker on top of that object, which means that if you perform a `GET` on it, you will receive an error as if the object does not exist
 	- However, an administrator, or anyone else with the necessary permissions, could remove the delete marker and access the data
+	- The previous versions can be accessed if the version ID is specified
 
 
 #### Pricing
