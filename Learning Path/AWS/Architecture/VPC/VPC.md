@@ -9,6 +9,12 @@
 		- The destination is the CIDR block and the target is _local_
 		- You have a limit on the number of CIDR blocks you can associate with a VPC and number of routes you can add to a route table
 
+- A VPC spans all of the AZs in the Region
+
+- After creating a VPC, you can add one or more subnets in each AZ
+	- You can optionally add subnets in a Local Zone, which is an AWS infrastructure deployment that places compute, storage, database, and other select services closer to your end users
+	- A Local Zone enables your end users to run applications that require single-digit millisecond latencies
+
 #### Subnet routing
 - [[Route Table]]
 
@@ -23,6 +29,9 @@
 #### Components
 - Network Interfaces
 
+#### High Availability
+
+![[High Availability VPC Design.png]]
 
 #### Guide
 - https://tutorialsdojo.com/amazon-vpc/
