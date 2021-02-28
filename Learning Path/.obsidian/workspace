@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AWS/Compute/AWS Beanstalk/Performance Monitoring.md",
-            "mode": "source"
+            "file": "AWS/Billing/AWS Organizations/Service control policies (SCP).md",
+            "mode": "preview"
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cloudtrail",
+                "query": "\"aws organization\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Compute/AWS Beanstalk/Performance Monitoring.md",
+                "file": "AWS/Billing/AWS Organizations/Service control policies (SCP).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,18 +82,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "lastOpenFiles": [
-    "AWS/Compute/AWS Beanstalk/Performance Monitoring.md",
-    "AWS/Compute/AWS Beanstalk/AWS Beanstalk.md",
-    "AWS/Compute/AWS Beanstalk/Deployment Options.md",
-    "AWS/Compute/AWS Lambda/Deployment Options.md",
-    "AWS/CICD/AWS CodeDeploy/Deployment Options.md",
-    "AWS/Database Fundamentals/ElastiCache.md",
-    "AWS/Misc/Untitled.md",
-    "AWS/Database Fundamentals/Untitled.md",
-    "AWS/Database Fundamentals/Non-Relational DBs/Untitled.md",
-    "AWS/Storage/Storage Concepts.md"
+    "AWS/Billing/AWS Organizations/Service control policies (SCP).md",
+    "AWS/Billing/AWS Organizations/AWS Organizations.md",
+    "AWS/Billing/AWS Organizations/Untitled.md",
+    "AWS/Billing/Untitled.md",
+    "AWS/Billing/AWS Budgets.md",
+    "AWS/Architecture/VPC/Elastic Network Interface (ENI).md",
+    "AWS/Architecture/VPC/Elastic IP Address (EIP).md",
+    "AWS/Disaster Recovery/Untitled.md",
+    "AWS/Architecture/VPC/VPC Endpoint.md",
+    "AWS/Architecture/VPC/Untitled.md"
   ]
 }

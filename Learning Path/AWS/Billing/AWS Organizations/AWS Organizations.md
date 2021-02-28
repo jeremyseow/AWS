@@ -26,16 +26,8 @@
 	- Your AWS accounts that you use and create to be able to configure and provision AWS resources
 	- Each of your AWS accounts has a 12 digit account number
 	
-- Service control policies (SCP)
-	- Allow you to control what services and features are accessible from within an AWS account
-		- These SCPs can either be associated with the Root, OUs, or individual accounts
-	- Before you start using SCPs, you first need to enable them from the root account of your organization
-	- When an SCP is applied to any of these objects, ==its associated controls are fed down to all child objects==
-	- ==SCP does not grant access==
-		- It acts as a permission boundary that sets the maximum permission level for the objects that it is applied to
-			- ==It has the overriding precedence over identity-based and resource-based policies==
-		- You will still need to configure your identity-based or resource-based policies to identities, granting permission to carry out actions within your accounts
-
+- [[Service control policies (SCP)]]
+	
 - *Master account*
 	-  A master account is just a standard AWS account that you have chosen to create the AWS Organizations
 		-  ==It is best practice to use this AWS account solely as a master account==, and not to use it to provision any other resources such as EC2 instances, etc
