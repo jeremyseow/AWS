@@ -1,0 +1,1 @@
+Only attach to EC2 instances in same AZ

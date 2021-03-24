@@ -1,0 +1,1 @@
+ENI allows EC2 to have IP addresses. 1 instance can have multiple ENIs. Assign IP through Elastic IPs or automatically

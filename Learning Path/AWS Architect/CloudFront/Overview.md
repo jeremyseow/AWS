@@ -1,0 +1,1 @@
+To access objects in S3 buckets: Use **Origin Access Identity (OAI)**
