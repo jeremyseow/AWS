@@ -6,6 +6,6 @@
 
 |IAM certificate store|ACM|CloudFront|
 |---------------------|-----|-----------|
-|you can request a certificate or deploy an existing ACM or external certificate to AWS resources| IAM securely encrypts your private keys and stores the encrypted version in IAM SSL certificate storage|sas|
-|you can use ACM to manage server certificates from the console or programmatically|IAM supports deploying server certificates in all Regions. you cannot manage your certificates from the IAM Console|dsd|
-|Certificates provided by ACM are free and automatically renew|ou must obtain your certificate from an external provider for use with AWS. You cannot upload an ACM certificate to IAM|You would also not be able to export the certificate that you have loaded in CloudFront nor assign them to your EC2 or ELB instances as it would be tied to a single CloudFront distribution|
+|You can request a certificate or deploy an existing ACM or external certificate to AWS resources| IAM securely encrypts your private keys and stores the encrypted version in IAM SSL certificate storage|sas|
+|You can use ACM to manage server certificates from the console or programmatically|IAM supports deploying server certificates in all Regions. you cannot manage your certificates from the IAM Console|dsd|
+|Certificates provided by ACM are free and automatically renew|You must obtain your certificate from an external provider for use with AWS. You cannot upload an ACM certificate to IAM|You would also not be able to export the certificate that you have loaded in CloudFront nor assign them to your EC2 or ELB instances as it would be tied to a single CloudFront distribution|

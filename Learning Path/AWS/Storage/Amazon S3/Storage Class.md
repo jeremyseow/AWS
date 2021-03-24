@@ -5,12 +5,12 @@
 - S3 Lifecycle policies can automatically transition objects between storage classes without any application changes
 
 - Types of storage classes can be classified into 4 access tiers
-	- Frequent access tier
+	- Frequent access 
 		- S3 Standard
 			- High durability, availability, and performance and low latency and high throughput
 			- Suitable for frequently accessed data
 				-  Such as cloud applications, dynamic websites, content distribution, mobile and gaming applications, and big data analytics
-	-  Infrequent access tier
+	-  Infrequent access
 		-  S3 Standard-Infrequent Access (S3 Standard-IA)
 			-  Offers the high durability, high throughput, and low latency of S3 Standard, with a low per GB storage price and per GB retrieval fee
 			-  Suitable for data that is accessed less frequently, but requires rapid access when needed
@@ -48,6 +48,7 @@
 		-  S3 Intelligent-tiering
 			-  Designed to optimize costs by automatically moving data to the most cost-effective access tier, without operational overhead
 			-  Objects uploaded or transitioned to S3 Intelligent-Tiering are automatically stored in the Frequent Access tier. S3 Intelligent-Tiering works by monitoring access patterns and then moving the objects that have not been accessed in 30 consecutive days to the Infrequent Access tier. Once you have activated one or both of the archive access tiers, S3 Intelligent-Tiering will automatically move objects that haven’t been accessed for 90 consecutive days to the Archive Access tier and then after 180 consecutive days of no access to the Deep Archive Access tier. If the objects are accessed later, S3 Intelligent-Tiering moves the objects back to the Frequent Access tier
+				-  These tiers are part of the intelligent tiering class itself and are separate from existing classes
 			-  Suitable for data sets with unknown storage access patterns, like new applications, or unpredictable access patterns, like data lakes
 		-  S3 Outposts
 

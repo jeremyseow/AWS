@@ -3,10 +3,11 @@
 	- To protect the AWS resources in each subnet, you can use multiple layers of security, including security groups and network access control lists (ACL)
 
 - You can add 1 or more subnets in each [[Availability Zone|AZ]] of your VPC's [[Region]]
+	- Each subnet ==must reside entirely within one AZ== and cannot span zones
 	- Specify a CIDR block for each subnet, which is a subset of your VPC's CIDR block
-	- A CIDR block must not overlap with any exist CIDR block that is associated with the VPC
+	- A CIDR block ==must not overlap with any exist CIDR block== that is associated with the VPC
 	- The 1st 4 and the last IP addresses in each subnet CIDR block are not usable and cannot be assigned to an instance
-	- You cannot change the size of an existing CIDR block
+	- ==You cannot change the size of an existing CIDR block==
 
 - Types of subnets
 	- Public subnet
